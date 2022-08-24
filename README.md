@@ -5,6 +5,8 @@ No warranty is expressed or implied.
 
 Though anyone is welcome to open an issue, this project will get very little free support. if you need help and have a budget, please let me know.
 
+This is a work in progress designed to attract businesses who would like help in launching and managing Discourse using their preferred environments and toolsets. If you need help or a custom image, let me know.
+
 ## nginx-proxy
 
 Includes a `docker-compose.yml` and `dot_env.sample` (that should be copied to `.env` and edited or edited and passed on the command line) that will launch a working Discourse installation with nginx-proxy (plus nginx-proxy-acme to handle certs) as a reverse proxy in front of Discourse as well as Postgres and Redis.

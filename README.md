@@ -3,9 +3,9 @@ Launch Discourse with Docker Compose using Docker images from [pfaffman/discours
 
 No warranty is expressed or implied. 
 
-Though anyone is welcome to open an issue, this project will get very little free support. if you need help and have a budget, please let me know.
+Though anyone is welcome to open an issue, this project will get very little free support. if you need help and have a budget, please contact me.
 
-This is a work in progress designed to attract businesses who would like help in launching and managing Discourse using their preferred environments and toolsets. If you need help or a custom image, let me know.
+This is a work in progress designed to attract businesses who would like help in launching and managing Discourse using their preferred environments and toolsets. If you need help with a particular environment or a custom image, we can make that happen.
 
 ## nginx-proxy
 

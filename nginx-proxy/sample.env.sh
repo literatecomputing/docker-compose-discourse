@@ -14,7 +14,7 @@ UNICORN_WORKERS=4
 UNICORN_SIDEKIQS=1
 
 # Postgres shm_size -- set to 25% of RAM unless you know better
-POSTGRES_SHM_SIZE=512MB
+POSTGRES_SHM_SIZE="512MB"
 #
 # See https://support.maxmind.com/hc/en-us/articles/4407111582235-Generate-a-License-Key
 # DISCOURSE_MAXMIND_LICENSE_KEY=license-key

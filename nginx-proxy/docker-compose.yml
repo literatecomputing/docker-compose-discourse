@@ -85,4 +85,12 @@ services:
       DISCOURSE_REDIS_HOST: ${DISCOURSE_REDIS_HOST}
       # HTTPS IS REQUIRED. Do not remove 
       DISCOURSE_FORCE_HTTPS: "true"
+      # migrate database on init
+      LC_DB_MIGRATE: "true"
+      # precompile assets in background on init
+      LC_ASSETS_PRECOMPILE_NOWAIT: "true"
+      # precompile assets on init and wait to continue
+      LC_ASSETS_PRECOMPILE_WAIT: "false"
+      # rake s3:upload_assets on init (also use LC_ASSETS_PRECOMPILE_WAIT)
+      LC_S3_UPLOAD_ASSETS: "false"
       

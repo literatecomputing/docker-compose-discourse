@@ -2,7 +2,7 @@
 # docker compose --env-file sample.env.sh up  -d
 
 DISCOURSE_HOSTNAME=test2.myforum.us
-DISCOURSE_DB_HOSTAME=db # use postgres container in docker-compose
+DISCOURSE_DB_HOSTNAME=db # use postgres container in docker-compose
 DISCOURSE_DB_PASSWORD=discourse
 DISCOURSE_DB_USER=postgres # use "postgres" if using postgres in docker-compose
 DISCOURSE_DB_NAME=discourse
